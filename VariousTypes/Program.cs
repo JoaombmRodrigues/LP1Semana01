@@ -24,7 +24,11 @@ namespace VariousTypes
             decimal decimal_num = 3.1416m;
             //ex3.9
             Console.WriteLine(float_num + " " + double_num + " " + decimal_num);
-            
+            //ex3.11
+            bool true_condition = true;
+            bool false_condition = false;
+            //ex3.12
+            Console.WriteLine(true_condition + " " + false_condition);
         }
     }
 }
