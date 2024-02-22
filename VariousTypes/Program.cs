@@ -18,6 +18,12 @@ namespace VariousTypes
             char spades = '\u2660';
             //ex3.6
             Console.WriteLine(estimated_sign + " " + heart + " " + spades);
+            //ex3.8
+            float float_num = 14.7f;
+            double double_num = 1.23456;
+            decimal decimal_num = 3.1416m;
+            //ex3.9
+            Console.WriteLine(float_num + " " + double_num + " " + decimal_num);
             
         }
     }
