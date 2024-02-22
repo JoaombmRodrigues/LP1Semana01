@@ -9,8 +9,9 @@ namespace AskForInput
         {
             //ex7.2.1
             Console.WriteLine("Insert an integer number: ");
-            string response = Console.ReadLine();
-            
+            string str = Console.ReadLine();
+            //ex7.2.2
+            int response = int.Parse(str);
         }
     }
 }
