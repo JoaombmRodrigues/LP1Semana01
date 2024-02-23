@@ -12,6 +12,9 @@ namespace AskForInput
             string str = Console.ReadLine();
             //ex7.2.2
             int response = int.Parse(str);
+            //ex7.2.3
+            Console.WriteLine("Insert a real number: ");
+            string str2 = Console.ReadLine();
         }
     }
 }
