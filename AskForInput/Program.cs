@@ -17,7 +17,8 @@ namespace AskForInput
             string str2 = Console.ReadLine();
             //ex7.3.4
             float response2 = float.Parse(str);
-            
+            //ex7.3.5
+            Console.WriteLine($"{response}+{response2}={response+response2}");
         }
     }
 }
