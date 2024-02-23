@@ -15,6 +15,9 @@ namespace AskForInput
             //ex7.2.3
             Console.WriteLine("Insert a real number: ");
             string str2 = Console.ReadLine();
+            //ex7.3.4
+            float response2 = float.Parse(str);
+            
         }
     }
 }
